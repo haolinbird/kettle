@@ -1,4 +1,4 @@
 export JAVA_HOME=/usr/local/java/jdk1.8.0_271
 export PATH=$JAVA_HOME/bin:$PATH
 export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-/usr/local/kettle/data-integration/pan.sh -file=/usr/local/kettle/kettleTask/clickhouse_demo.ktr > /usr/local/kettle/runOutput/clickhouse_demo_run_output.txt
+/data/kettle/data-integration/pan.sh -file=/data/kettle/kettleTask/clickhouse_demo.ktr > /data/kettle/runOutput/clickhouse_demo_run_output.txt
