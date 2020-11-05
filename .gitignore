@@ -1,2 +1,4 @@
-data-integration/*
-system/*
+data-integration/
+system/
+runOutput/
+runResult/
